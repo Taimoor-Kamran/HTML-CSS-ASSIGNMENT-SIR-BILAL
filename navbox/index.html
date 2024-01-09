@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(red , blue);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        background: #fff;
+        height: 380px;
+        width: 250px;
+        padding-top: 20px;
+    }
+    .container2{
+        display: flex;
+        height: 400px;
+        width: 250px;
+        background: rgb(214, 33, 139);
+        margin-left: 30px;
+        color: #fff;
+    }
+    .container3{
+        display: flex;
+        padding-top: 20px;
+        height: 380px;
+        width: 250px;
+        background: #fff;
+        margin-left: 30px;
+    }
+ .deep{
+        text-align: center;
+    }
+    .container3 .deep img{
+        width: 80px;
+    }
+    .container2 .deep img{
+        width: -150px;
+    }
+    .container .deep button {
+        background: #000;
+        color: #fff;
+        border-radius: 6px;
+        width: 150px;
+        height: 30px;
+        border: none;
+    }
+    .container2 .deep button{
+        background: #fff;
+        color:#000;
+        width: 150px;
+        height: 30px;
+        border-radius: 8px;
+        border: none;
+    }
+    .container3 .deep button{
+        background: #000;
+        color: #fff;
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 8px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="deep">
+            <img src="images/twitter.png" alt="Twitter" width="70px">
+        <h1>TWITTER</h1>
+        <blockquote>
+            <p>X, commonly referred to by its former name Twitter, is a social media website based in the United States. 
+                With over 500 million users, it is one of the world's largest social networks.</p>
+                <button>READ MORE</button>
+        </blockquote>
+            </div>
+        </div>
+        </blockquote>
+        
+    </div>
+    <span>
+        <div class="container2">
+            <div class="deep">
+                <img src="images/download-removebg-preview (1).png" width="90px" alt="Instagram">
+            <h1>INSTAGRAM</h1>
+            <blockquote>
+                <p>
+                    Instagram[a] is an American photo and video sharing social networking service owned by Meta Platforms. 
+                    It allows users to upload media that can be edited with filters 
+                </p>
+                <button>READ MORE</button>
+            </blockquote>
+        </div>
+        </div>
+    </span>
+    <span>
+        <div class="container3">
+            <div class="deep">
+                <img src="images/youtube-removebg-preview.png" alt="YouTube" >
+            <h1>YOUTUBE</h1>
+            <blockquote>
+                <p>YouTube is an American online video sharing and social media platform owned by Google. 
+                    Accessible worldwide,[6] it was launched on February 14, 2005, OR 2012, OR 2018</p>
+                    <button>READ MORE</button>
+            </blockquote>
+            <br>
+         </div>
+        </div>
+    </span>
+
+</body>
+</html>
