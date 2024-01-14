@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page Saylani</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100wh;
+            height: 100vh;
+        }
+        header{
+            background: lightgrey;
+            height: 25px;
+        }
+        header p {
+            display: inline;
+            margin-left: 40px;
+        }
+        
+        header select{
+            height: 25px;
+            display: inline-block;
+            margin-left: 750px;
+            border: none;
+        }
+        nav{
+            display: inline;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            margin-left: 50px;
+        }
+        nav li{
+            list-style: none;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        nav li:hover{
+            color: greenyellow;
+        }
+        nav .btn1{
+            margin-left: 30px;
+            height: 50px;
+            width: 120px;
+            padding: 0px 020px 0px 20px;
+            background: rgb(50, 50, 255);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+        nav .btn2{
+            height: 50px;
+            width: 120px;
+            padding: 0px 20px 0px 20px;
+            background: greenyellow;
+            color: #fff;
+            border-radius: 5px;
+            border: 1px solid rgb(50, 50, 255);
+        }
+        main{
+            margin: 50px 0px 0px 100px;
+            font-size: 23px;
+        }
+        main h1 span{
+            color: greenyellow;
+        }
+        main h3{
+            margin-top: 20px;
+        }
+        main p{
+            margin-top: 20px;
+        }
+        main button{
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 20px;
+            height: 50px;
+            width: 170px;
+            background: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .img{
+            display: flex;
+            justify-content: end;
+            margin-right: 100px;
+            margin-top: -350px;
+        }
+    </style>
+</head>     
+<body>
+    <header>
+        <p>info@SayalniWelfare.com</p>
+        <p>021-111-729-526</p>
+        <select>
+            <option value="English">English</option>
+            <option value="urdu">Urdu</option>
+            <option value="Turkey">Turkey</option>
+        </select>
+    </header>
+    <nav>
+        <ul>
+                <img src="images/download-removebg-preview.png" alt="Saylani" width="250px">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICES</li>
+            <li>MEDIA</li>
+            <li>NEWS</li>
+            <li>CONTACT US</li>
+            <li>OVERSEAS DONORS</li>
+            <div>
+            <button class="btn1">DONATE NOW</button>
+            <button class="btn2">BE A SPONSOR</button>
+        </div>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <h1>Welcome to the <br> <span>Saylani </span> Welfare</h1>
+        <h3>The Largest NGO offering free</h3>
+        <p>Saylani Welfare is on the ground and already working with local <br> communities to access how to support underprivileged families <br>
+         in more than 63 area of a day to day lives.</p>
+         <button>Explore more </button>
+    </main>
+    <div class="img">
+        <img src="images/Fornt Page Img.png" alt="Fornt Img" width="400px">
+    </div>
+</body>
+</html>
